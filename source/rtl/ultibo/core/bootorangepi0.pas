@@ -31,11 +31,11 @@ References
 Orange Pi Zero
 ==============
 
- Manufacturer: Xunlong, China
+ Manufacturer: Xunlong - Beijing, China
  
  Model: Orange Pi Zero
  
- Stock OS: Lubuntu 14.04 (also supports Android, Debian)
+ Stock OS: Lubuntu 14.04 (also supports Android, Debian, Ubuntu)
 
  SoC: Allwinner H2
  
@@ -45,24 +45,24 @@ Orange Pi Zero
  
  GPU: Mali-400MP2 @600MHz (? pixel processors + ? vertex shaders) OpenGL ES2 + AVE H264/H265/VC1
  
- FPU: ???
+ FPU: vfpv4 + neon
  
- RAM: 256MB (??) or 512MB (SEC628 K484G16)
+ RAM: 256MB (??) or 512MB (SEC628 K484G16) DDR3
  
- USB: 1 USB 2.0 host + 2 USB (13-pin header) + Micro-B OTG 
+ USB: 1 USB 2.0 host + 2 USB (13-pin header) + Micro-B OTG with power input
  
- LAN: 10/100 passive jack with H1102NL external magnetics and POE
+ LAN: 10/100 passive jack with H1102NL external magnetics and POE (default OFF)
   
- SD/MMC: MicroSD Card slot
+ SD/MMC: MicroSD Card slot, max 64GB
  
- WiFi: Allwinner XR819 (RTL8189) 802.11 b/g/n and mini wifi antenna
+ WiFi: XRadio XR819 802.11 b/g/n and mini wifi antenna (vid:pid=0020:2281)
  
  Bluetooth: Nil
  
  Display: CVBS (on 13-pin header)
  
- Other: RasPi B+ compatible GPIO (26-pin header), IR + TVOUT + Mic + Stereo Audio + 2 USB (13-pin header)
- Other: Serial debug port header, optional 2MB SPI NOR flash
+ Other: RasPi B compatible GPIO (26-pin header), IR + TVOUT + Mic + Stereo Audio + 2 USB (13-pin header)
+ Other: Serial debug port header, optional 2MB SPI NOR flash, USB ports are UASP capable, power & status LEDs
 
 }
 
