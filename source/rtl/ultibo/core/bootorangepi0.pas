@@ -41,13 +41,13 @@ Orange Pi Zero
  
  CPU: ARMv7-A Cortex-A7 (4 @ 1.2GHz)
  
- Cache: L1 ??KB I/D, L2 ???KB (Shared)
+ Cache: L1 32KB I/D, L2 512KB (Shared)
  
- GPU: Mali-400MP2 @600MHz (? pixel processors + ? vertex shaders) OpenGL ES2 + AVE H264/H265/VC1
+ GPU: Mali-400MP2 @600MHz (1 vertex shader and 2 fragment shaders) OpenGL ES2 + AVE H264/H265/VC1
  
  FPU: vfpv4 + neon
  
- RAM: 256MB (??) or 512MB (SEC628 K484G16) DDR3
+ RAM: 256MB or 512MB (SEC628 K484G16) DDR3
  
  USB: 1 USB 2.0 host + 2 USB (13-pin header) + Micro-B OTG with power input
  
@@ -59,11 +59,13 @@ Orange Pi Zero
  
  Bluetooth: Nil
  
- Display: CVBS (on 13-pin header)
+ Display: CVBS NTSC/PAL (on 13-pin header)
  
  Other: RasPi B compatible GPIO (26-pin header), IR + TVOUT + Mic + Stereo Audio + 2 USB (13-pin header)
  Other: Serial debug port header, optional 2MB SPI NOR flash, USB ports are UASP capable, power & status LEDs
 
+ A cheap expansion board is available which breaks out all functionality of the 13-pin header.
+ 
 }
 
 {$mode delphi} {Default to Delphi compatible syntax}
